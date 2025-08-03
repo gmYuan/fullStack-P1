@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript", 
+    "typescript", 
+    "javascriptreact", 
+    "typescriptreact"
+  ],
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  // "." 表示当前工作目录（即项目根目录）
+  // 告诉 VSCode 的 ESLint 扩展在哪里寻找 ESLint 配置文件
+  "eslint.workingDirectories": ["."]
+}
